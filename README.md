@@ -15,7 +15,7 @@
     <div id="loveParagraph" style="display: none;">
         <h2> Dear [Zoya],</h2>
         <p>
-            [Insert a long paragraph about how much you love her here. Make it personal and heartfelt.]
+            [Hi zoyapie this took me a while to make but its all worth it for you! I love you so much, your my bestfriend and my wife all at the same time. I hope to spend all my valentines with you my pie. (have to do this stuff since im still too broke to buy you good gifts:(]
         </p>
     </div>
     <script src="script.js"></script>
