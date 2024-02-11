@@ -1,28 +1,41 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: pink;
-    text-align: center;
-    padding: 20px;
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
 }
 
-#yesButton, #noButton {
-    background-color: white;
-    border: 2px solid black;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+.screen {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#memoryGameContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.memory-card {
+    width: 90px;
+    height: 90px;
     margin: 10px;
-}
-
-#yesButton:hover, #noButton:hover {
-    background-color: lightpink;
-}
-
-#loveParagraph {
-    margin-top: 20px;
-    background-color: white;
-    border: 2px solid black;
-    padding: 20px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    border: 2px solid #fff;
     border-radius: 10px;
+}
+
+.active {
+    display: flex;
 }
